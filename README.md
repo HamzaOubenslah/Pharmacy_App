@@ -4,11 +4,11 @@
 Pharmacy App is a web platform that allows users to search for medicine availability, locate nearby pharmacies, and manage pharmacy operations. It follows an **MVP (Minimum Viable Product)** approach and is developed using the **MERN stack**.
 
 ## 🚀 Tech Stack
-- **Frontend:** React.js, Tailwind CSS
+- **Frontend:** React.js,  Tailwind(Or styled-components)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Authentication:** JWT
-- **State Management:** Redux (if needed)
+- **State Management:** Redux (Or Context Api)
 - **Project Management:** JIRA
 - **Version Control:** Git & GitHub (Feature Branching Workflow)
 
@@ -28,9 +28,6 @@ cd Pharmacy_App
 cd backend
 npm install
 
-# Frontend dependencies
-cd ../frontend
-npm install
 ```
 
 ### **3️⃣ Environment Variables**
@@ -47,9 +44,6 @@ JWT_SECRET=your_secret_key
 cd backend
 npm run dev
 
-# Start Frontend
-cd ../frontend
-npm start
 ```
 
 ---
@@ -113,16 +107,7 @@ Pharmacy_App/
 │   ├── controllers/   # Business logic
 │   ├── middleware/    # Authentication & validation
 │   ├── config/        # Database & environment setup
-│   ├── server.js      # Entry point
-│
-│── frontend/          # React.js frontend
-│   ├── src/
-│   │   ├── components/   # UI components
-│   │   ├── pages/        # App pages
-│   │   ├── store/        # State management (if Redux used)
-│   │   ├── App.js        # Main component
-│
-│── .github/           # GitHub workflows & templates
+│   ├── app.js         # Main point
 │── README.md          # Project documentation
 │── .gitignore         # Ignored files
 │── package.json       # Dependencies
@@ -131,7 +116,7 @@ Pharmacy_App/
 ---
 
 ## 🚀 Deployment
-We will deploy the app using **Vercel (Frontend)** and **Render / DigitalOcean (Backend)**.
+We will deploy the app using **Vercel (Frontend)** and **AWS (Backend)**.
 
 ### **Backend Deployment (Render)**
 1. Push changes to `main`
