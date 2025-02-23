@@ -53,10 +53,9 @@ We use **GitHub Flow** with feature branches:
 
 1. **Main Branches**
    - `main` → **Stable production-ready code**
-   - `develop` → **Latest development updates**
 
 2. **Feature Branches**
-   - Each feature is developed in a **separate branch** before merging into `develop`.
+   - Each feature is developed in a **separate branch** before merging into `main`.
    - Naming convention:  
      ```
      feature/{feature-name}
@@ -67,8 +66,7 @@ We use **GitHub Flow** with feature branches:
 ### **🚀 Workflow Example**
 ```bash
 # 1️⃣ Pull the latest code
-git checkout develop
-git pull origin develop
+git pull origin main
 
 # 2️⃣ Create a new branch
 git checkout -b feature/user-authentication
@@ -137,7 +135,7 @@ We will deploy the app using **Vercel (Frontend)** and **AWS (Backend)**.
    refactor: Improved database schema
    ```
 ✅ **Pull Requests (PRs)** – Before merging, request at least **one review**.  
-✅ **Stay Updated** – Regularly pull the latest `develop` branch to avoid conflicts.  
+✅ **Stay Updated** – Regularly pull the latest `main` branch to avoid conflicts.  
 
 ---
 
