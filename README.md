@@ -141,7 +141,9 @@ We will deploy the app using **Vercel (Frontend)** and **AWS (Backend)**.
 
 ## 📞 Contact & Contribution
 👥 **Team Members:**
-- **Hamza Oubenslah** – Lead Developer
-- **[Other Team Members]**  
+- **Hamza Oubensalh** – Lead Developer
+- **Hiba Aitbenabdelah** - Developer  
+- **Nouhayla Aitbensalh** - Developer  
+- **Oussama Elbouzaydi** - Developer  
 
-💡 **Want to contribute?** Fork the repo, create a feature branch, and submit a PR! 🚀
+
